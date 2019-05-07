@@ -189,9 +189,9 @@ def DeclareStmTableTmp():
         DeclareStatement()
         DeclareStmTableTmp()
 
-    elif sym_type == Keys['if']:
-        # ';'后为'if'则保持为';'
-        back(2)
+    # elif sym_type == Keys['if']:
+    #    # ';'后为'if'则保持为';'
+    #    back(2)
 
     else:
         # 保持当前符号
